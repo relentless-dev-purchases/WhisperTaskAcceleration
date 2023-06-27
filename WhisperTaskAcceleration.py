@@ -42,7 +42,7 @@ import ffmpeg, json, subprocess
 """
     When launching the parallel processes from another process, you must fork
     or there will be a runtime error because of a looping back to the ___MAIN___ file.
-    ENABLE MULITPLE PARALLEL PROCESSES WHILE ALSO RESOLVING THE RUNTIME ERROR
+    ENABLE MULTIPLE PARALLEL PROCESSES WHILE ALSO RESOLVING THE RUNTIME ERROR
      
     set_start_method('fork') # MUST HAVE WHEN CALLING FROM PYTHONKIT
 """
